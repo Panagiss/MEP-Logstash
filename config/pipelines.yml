@@ -1,0 +1,31 @@
+# This file is where you define your pipelines. You can define multiple.
+# For more information on multiple pipelines, see the documentation:
+#   https://www.elastic.co/guide/en/logstash/current/multiple-pipelines.html
+
+- pipeline.id: misp-update-pipeline
+  path.config: "/usr/share/logstash/pipeline/misp.conf"
+  pipeline.workers: 1
+
+- pipeline.id: misp-enrichment-pipeline
+  path.config: "/usr/share/logstash/pipeline/enrichment.conf"
+
+- pipeline.id: skoupa
+  path.config: "/usr/share/logstash/pipeline/skoupa.conf"
+
+  # config.string: |
+  #   input { beats { port => 5044 } }
+  #   output { pipeline { send_to => ["to-es", "enrich"] } }
+
+- pipeline.id: straight-es
+  path.config: "/usr/share/logstash/pipeline/straight_es.conf"
+  
+  # config.string: |
+  #   input { pipeline { address => "to-es" } }
+  #   output { elasticsearch { hosts => ["https://localhost:9200"] 
+  #       index => "%{[@metadata][beat]}-%{[@metadata][version]}"
+  #       user => ***REMOVED***
+  #       password => ***REMOVED***
+  #       ssl => true
+  #       cacert => "/usr/share/logstash/config/elasticsearch-ca.pem"
+  #       http_compression => true
+  #       sniffing => false } }

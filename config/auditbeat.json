@@ -1,0 +1,5802 @@
+{
+    "host": {
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "os": {
+            "platform": "ubuntu",
+            "codename": "bionic",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "kernel": "5.4.0-1055-azure",
+            "type": "linux",
+            "name": "Ubuntu"
+        },
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "name": "kube-deployment"
+    },
+    "@version": "1",
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "process": {
+        "args": [
+            "/snap/microk8s/2361/bin/containerd-shim-runc-v1",
+            "-namespace",
+            "k8s.io",
+            "-id",
+            "f51408f43478c3b29f4343da86980bd934dea004040fa34d06738f2e1313c2d1",
+            "-address",
+            "/var/snap/microk8s/common/run/containerd.sock"
+        ],
+        "pid": 5628,
+        "ppid": 1,
+        "hash": {
+            "sha1": "d30624d0b74af1b5c0437740d342096f51f72dcd"
+        },
+        "entity_id": "GTODThRt6gXdF3Wc",
+        "executable": "/snap/microk8s/2361/bin/containerd-shim-runc-v1",
+        "working_directory": "/var/snap/microk8s/common/run/containerd/io.containerd.runtime.v2.task/k8s.io/f51408f43478c3b29f4343da86980bd934dea004040fa34d06738f2e1313c2d1",
+        "start": "2021-08-12T10:56:33.310Z",
+        "name": "containerd-shim"
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "service": {
+        "type": "system"
+    },
+    "event": {
+        "id": "ed3b3fd1-9dd8-4a47-a475-c0e0ad6d1644",
+        "module": "system",
+        "kind": "state",
+        "type": [
+            "info"
+        ],
+        "action": "existing_process",
+        "category": [
+            "process"
+        ],
+        "dataset": "process"
+    },
+    "tags": [
+        "beats_input_codec_plain_applied"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "hostname": "kube-deployment",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "user": {
+        "id": "0",
+        "group": {
+            "id": "0",
+            "name": "root"
+        },
+        "saved": {
+            "id": "0",
+            "group": {
+                "id": "0"
+            }
+        },
+        "effective": {
+            "group": {
+                "id": "0"
+            },
+            "id": "0"
+        },
+        "name": "root"
+    },
+    "@timestamp": "2021-08-12T11:10:30.781Z",
+    "message": "Process containerd-shim (PID: 5628) by user root is RUNNING"
+}
+{
+    "host": {
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "os": {
+            "codename": "bionic",
+            "platform": "ubuntu",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "kernel": "5.4.0-1055-azure",
+            "type": "linux",
+            "name": "Ubuntu"
+        },
+        "name": "kube-deployment"
+    },
+    "@version": "1",
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "process": {
+        "args": [
+            "/pause"
+        ],
+        "pid": 5692,
+        "ppid": 5628,
+        "entity_id": "rCgCz6VM00osR4qC",
+        "executable": "/pause",
+        "working_directory": "/",
+        "start": "2021-08-12T10:56:33.490Z",
+        "name": "pause"
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "error": {
+        "message": "failed to hash executable /pause for PID 5692: failed to stat file /pause: stat /pause: no such file or directory"
+    },
+    "service": {
+        "type": "system"
+    },
+    "event": {
+        "module": "system",
+        "kind": "error",
+        "type": [
+            "info"
+        ],
+        "action": "process_error",
+        "category": [
+            "process"
+        ],
+        "dataset": "process"
+    },
+    "tags": [
+        "beats_input_codec_plain_applied"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "hostname": "kube-deployment",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "user": {
+        "id": "0",
+        "group": {
+            "id": "0",
+            "name": "root"
+        },
+        "saved": {
+            "id": "0",
+            "group": {
+                "id": "0"
+            }
+        },
+        "effective": {
+            "id": "0",
+            "group": {
+                "id": "0"
+            }
+        },
+        "name": "root"
+    },
+    "@timestamp": "2021-08-12T11:10:30.781Z",
+    "message": "ERROR for PID 5692: failed to hash executable /pause for PID 5692: failed to stat file /pause: stat /pause: no such file or directory"
+}
+{
+    "host": {
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "os": {
+            "codename": "bionic",
+            "platform": "ubuntu",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "type": "linux",
+            "kernel": "5.4.0-1055-azure",
+            "name": "Ubuntu"
+        },
+        "name": "kube-deployment"
+    },
+    "@version": "1",
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "process": {
+        "args": [
+            "/snap/microk8s/2361/bin/containerd-shim-runc-v1",
+            "-namespace",
+            "k8s.io",
+            "-id",
+            "3ff022ec0f371ab1f64f9624e63ef1767678861490b0cbefdfadce9849a8efff",
+            "-address",
+            "/var/snap/microk8s/common/run/containerd.sock"
+        ],
+        "pid": 5841,
+        "ppid": 1,
+        "hash": {
+            "sha1": "d30624d0b74af1b5c0437740d342096f51f72dcd"
+        },
+        "entity_id": "At0whgdNvKrEN44I",
+        "executable": "/snap/microk8s/2361/bin/containerd-shim-runc-v1",
+        "working_directory": "/var/snap/microk8s/common/run/containerd/io.containerd.runtime.v2.task/k8s.io/3ff022ec0f371ab1f64f9624e63ef1767678861490b0cbefdfadce9849a8efff",
+        "start": "2021-08-12T10:56:35.300Z",
+        "name": "containerd-shim"
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "service": {
+        "type": "system"
+    },
+    "event": {
+        "id": "ed3b3fd1-9dd8-4a47-a475-c0e0ad6d1644",
+        "module": "system",
+        "kind": "state",
+        "type": [
+            "info"
+        ],
+        "action": "existing_process",
+        "category": [
+            "process"
+        ],
+        "dataset": "process"
+    },
+    "tags": [
+        "beats_input_codec_plain_applied"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "hostname": "kube-deployment",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "user": {
+        "id": "0",
+        "group": {
+            "id": "0",
+            "name": "root"
+        },
+        "saved": {
+            "id": "0",
+            "group": {
+                "id": "0"
+            }
+        },
+        "effective": {
+            "id": "0",
+            "group": {
+                "id": "0"
+            }
+        },
+        "name": "root"
+    },
+    "@timestamp": "2021-08-12T11:10:30.781Z",
+    "message": "Process containerd-shim (PID: 5841) by user root is RUNNING"
+}
+{
+    "host": {
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "os": {
+            "codename": "bionic",
+            "platform": "ubuntu",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "kernel": "5.4.0-1055-azure",
+            "type": "linux",
+            "name": "Ubuntu"
+        },
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "name": "kube-deployment"
+    },
+    "@version": "1",
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "process": {
+        "args": [
+            "/pause"
+        ],
+        "pid": 5866,
+        "ppid": 5841,
+        "entity_id": "h/pXfCqsDlhhFw4t",
+        "executable": "/pause",
+        "working_directory": "/",
+        "start": "2021-08-12T10:56:35.430Z",
+        "name": "pause"
+    },
+    "error": {
+        "message": "failed to hash executable /pause for PID 5866: failed to stat file /pause: stat /pause: no such file or directory"
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "service": {
+        "type": "system"
+    },
+    "event": {
+        "module": "system",
+        "kind": "error",
+        "type": [
+            "info"
+        ],
+        "action": "process_error",
+        "category": [
+            "process"
+        ],
+        "dataset": "process"
+    },
+    "tags": [
+        "beats_input_codec_plain_applied"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "hostname": "kube-deployment",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "user": {
+        "id": "0",
+        "group": {
+            "id": "0",
+            "name": "root"
+        },
+        "saved": {
+            "id": "0",
+            "group": {
+                "id": "0"
+            }
+        },
+        "effective": {
+            "id": "0",
+            "group": {
+                "id": "0"
+            }
+        },
+        "name": "root"
+    },
+    "@timestamp": "2021-08-12T11:10:30.781Z",
+    "message": "ERROR for PID 5866: failed to hash executable /pause for PID 5866: failed to stat file /pause: stat /pause: no such file or directory"
+}
+{
+    "host": {
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "os": {
+            "codename": "bionic",
+            "platform": "ubuntu",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "type": "linux",
+            "kernel": "5.4.0-1055-azure",
+            "name": "Ubuntu"
+        },
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "name": "kube-deployment"
+    },
+    "@version": "1",
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "process": {
+        "args": [
+            "/snap/microk8s/2361/bin/containerd-shim-runc-v1",
+            "-namespace",
+            "k8s.io",
+            "-id",
+            "9837f4b8e92adb8acaeeeb6f46a9a56d1fd90b65975b12c3d6b7d77b07c5d638",
+            "-address",
+            "/var/snap/microk8s/common/run/containerd.sock"
+        ],
+        "pid": 5939,
+        "ppid": 1,
+        "hash": {
+            "sha1": "d30624d0b74af1b5c0437740d342096f51f72dcd"
+        },
+        "entity_id": "sKYlOlripikIBFE9",
+        "executable": "/snap/microk8s/2361/bin/containerd-shim-runc-v1",
+        "working_directory": "/var/snap/microk8s/common/run/containerd/io.containerd.runtime.v2.task/k8s.io/9837f4b8e92adb8acaeeeb6f46a9a56d1fd90b65975b12c3d6b7d77b07c5d638",
+        "start": "2021-08-12T10:56:36.220Z",
+        "name": "containerd-shim"
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "service": {
+        "type": "system"
+    },
+    "event": {
+        "id": "ed3b3fd1-9dd8-4a47-a475-c0e0ad6d1644",
+        "module": "system",
+        "kind": "state",
+        "type": [
+            "info"
+        ],
+        "action": "existing_process",
+        "category": [
+            "process"
+        ],
+        "dataset": "process"
+    },
+    "tags": [
+        "beats_input_codec_plain_applied"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "hostname": "kube-deployment",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "user": {
+        "id": "0",
+        "group": {
+            "id": "0",
+            "name": "root"
+        },
+        "saved": {
+            "id": "0",
+            "group": {
+                "id": "0"
+            }
+        },
+        "effective": {
+            "id": "0",
+            "group": {
+                "id": "0"
+            }
+        },
+        "name": "root"
+    },
+    "@timestamp": "2021-08-12T11:10:30.781Z",
+    "message": "Process containerd-shim (PID: 5939) by user root is RUNNING"
+}
+{
+    "host": {
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "os": {
+            "codename": "bionic",
+            "platform": "ubuntu",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "type": "linux",
+            "kernel": "5.4.0-1055-azure",
+            "name": "Ubuntu"
+        },
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "name": "kube-deployment"
+    },
+    "@version": "1",
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "process": {
+        "args": [
+            "/pause"
+        ],
+        "pid": 6001,
+        "ppid": 5939,
+        "entity_id": "HQdscVx1qN8qYV93",
+        "executable": "/pause",
+        "working_directory": "/",
+        "start": "2021-08-12T10:56:36.560Z",
+        "name": "pause"
+    },
+    "error": {
+        "message": "failed to hash executable /pause for PID 6001: failed to stat file /pause: stat /pause: no such file or directory"
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "service": {
+        "type": "system"
+    },
+    "event": {
+        "module": "system",
+        "kind": "error",
+        "action": "process_error",
+        "type": [
+            "info"
+        ],
+        "category": [
+            "process"
+        ],
+        "dataset": "process"
+    },
+    "tags": [
+        "beats_input_codec_plain_applied"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "hostname": "kube-deployment",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "user": {
+        "id": "0",
+        "group": {
+            "id": "0",
+            "name": "root"
+        },
+        "saved": {
+            "id": "0",
+            "group": {
+                "id": "0"
+            }
+        },
+        "effective": {
+            "id": "0",
+            "group": {
+                "id": "0"
+            }
+        },
+        "name": "root"
+    },
+    "@timestamp": "2021-08-12T11:10:30.781Z",
+    "message": "ERROR for PID 6001: failed to hash executable /pause for PID 6001: failed to stat file /pause: stat /pause: no such file or directory"
+}
+{
+    "host": {
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "os": {
+            "codename": "bionic",
+            "platform": "ubuntu",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "kernel": "5.4.0-1055-azure",
+            "type": "linux",
+            "name": "Ubuntu"
+        },
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "name": "kube-deployment"
+    },
+    "auditd": {
+        "sequence": 547,
+        "message_type": "service_stop",
+        "data": {
+            "unit": "systemd-tmpfiles-clean"
+        },
+        "summary": {
+            "object": {
+                "primary": "systemd-tmpfiles-clean",
+                "type": "service"
+            },
+            "how": "/lib/systemd/systemd",
+            "actor": {
+                "primary": "unset",
+                "secondary": "root"
+            }
+        },
+        "result": "success"
+    },
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "@version": "1",
+    "process": {
+        "pid": 1,
+        "executable": "/lib/systemd/systemd",
+        "name": "systemd"
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "service": {
+        "type": "auditd"
+    },
+    "event": {
+        "outcome": "success",
+        "module": "auditd",
+        "kind": "event",
+        "type": [
+            "stop"
+        ],
+        "action": "stopped-service",
+        "category": [
+            "process"
+        ]
+    },
+    "tags": [
+        "beats_input_raw_event"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "hostname": "kube-deployment",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "user": {
+        "id": "0",
+        "name": "root"
+    },
+    "@timestamp": "2021-08-12T11:10:30.853Z"
+}
+{
+    "host": {
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "os": {
+            "codename": "bionic",
+            "platform": "ubuntu",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "kernel": "5.4.0-1055-azure",
+            "type": "linux",
+            "name": "Ubuntu"
+        },
+        "name": "kube-deployment"
+    },
+    "auditd": {
+        "sequence": 546,
+        "message_type": "service_start",
+        "data": {
+            "unit": "systemd-tmpfiles-clean"
+        },
+        "result": "success",
+        "summary": {
+            "object": {
+                "primary": "systemd-tmpfiles-clean",
+                "type": "service"
+            },
+            "how": "/lib/systemd/systemd",
+            "actor": {
+                "primary": "unset",
+                "secondary": "root"
+            }
+        }
+    },
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "@version": "1",
+    "process": {
+        "pid": 1,
+        "executable": "/lib/systemd/systemd",
+        "name": "systemd"
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "service": {
+        "type": "auditd"
+    },
+    "event": {
+        "outcome": "success",
+        "module": "auditd",
+        "kind": "event",
+        "action": "started-service",
+        "type": [
+            "start"
+        ],
+        "category": [
+            "process"
+        ]
+    },
+    "tags": [
+        "beats_input_raw_event"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "hostname": "kube-deployment",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "user": {
+        "id": "0",
+        "name": "root"
+    },
+    "@timestamp": "2021-08-12T11:10:30.853Z"
+}
+{
+    "related": {
+        "ip": [
+            "127.0.0.1",
+            "127.0.0.1"
+        ]
+    },
+    "host": {
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "os": {
+            "codename": "bionic",
+            "platform": "ubuntu",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "kernel": "5.4.0-1055-azure",
+            "type": "linux",
+            "name": "Ubuntu"
+        },
+        "name": "kube-deployment"
+    },
+    "server": {
+        "bytes": 0,
+        "ip": "127.0.0.1",
+        "port": 16443,
+        "packets": 0
+    },
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "@version": "1",
+    "process": {
+        "pid": 24801
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "flow": {
+        "complete": true,
+        "final": true
+    },
+    "service": {
+        "type": "system"
+    },
+    "source": {
+        "bytes": 52,
+        "port": 52794,
+        "ip": "127.0.0.1",
+        "packets": 1
+    },
+    "event": {
+        "duration": 22325106,
+        "end": "2021-08-12T11:10:34.058Z",
+        "module": "system",
+        "kind": "event",
+        "action": "network_flow",
+        "type": [
+            "info",
+            "connection"
+        ],
+        "category": [
+            "network",
+            "network_traffic"
+        ],
+        "start": "2021-08-12T11:10:34.036Z",
+        "dataset": "socket"
+    },
+    "tags": [
+        "beats_input_raw_event"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "hostname": "kube-deployment",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "network": {
+        "community_id": "1:nPxIhUshGUJP+OUxvFqQE+tvuXc=",
+        "bytes": 52,
+        "transport": "tcp",
+        "type": "ipv4",
+        "direction": "egress",
+        "packets": 1
+    },
+    "destination": {
+        "bytes": 0,
+        "port": 16443,
+        "ip": "127.0.0.1",
+        "packets": 0
+    },
+    "system": {
+        "audit": {
+            "socket": {
+                "kernel_sock_address": "0xffff8cf4d66471c0"
+            }
+        }
+    },
+    "@timestamp": "2021-08-12T11:10:34.837Z",
+    "client": {
+        "bytes": 52,
+        "port": 52794,
+        "ip": "127.0.0.1",
+        "packets": 1
+    }
+}
+{
+    "related": {
+        "ip": [
+            "127.0.0.1",
+            "127.0.0.1"
+        ],
+        "user": [
+            "root"
+        ]
+    },
+    "host": {
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "os": {
+            "codename": "bionic",
+            "platform": "ubuntu",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "kernel": "5.4.0-1055-azure",
+            "type": "linux",
+            "name": "Ubuntu"
+        },
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "name": "kube-deployment"
+    },
+    "server": {
+        "bytes": 312,
+        "ip": "127.0.0.1",
+        "port": 8080,
+        "packets": 4
+    },
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "@version": "1",
+    "process": {
+        "args": [
+            "/coredns",
+            "-conf",
+            "/etc/coredns/Corefile"
+        ],
+        "executable": "/coredns",
+        "pid": 6361,
+        "name": "coredns",
+        "created": "2021-08-12T10:56:40.000Z"
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "flow": {
+        "complete": false,
+        "final": true
+    },
+    "service": {
+        "type": "system"
+    },
+    "source": {
+        "bytes": 406,
+        "ip": "127.0.0.1",
+        "port": 45982,
+        "packets": 6
+    },
+    "event": {
+        "duration": 454300,
+        "end": "2021-08-12T11:10:34.698Z",
+        "module": "system",
+        "kind": "event",
+        "action": "network_flow",
+        "type": [
+            "info",
+            "connection"
+        ],
+        "category": [
+            "network",
+            "network_traffic"
+        ],
+        "dataset": "socket",
+        "start": "2021-08-12T11:10:34.697Z"
+    },
+    "tags": [
+        "beats_input_raw_event"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "hostname": "kube-deployment",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "network": {
+        "community_id": "1:8LDY5gedCoKHLRzKRigKWYfRk34=",
+        "bytes": 718,
+        "transport": "tcp",
+        "type": "ipv4",
+        "direction": "egress",
+        "packets": 10
+    },
+    "group": {
+        "id": "0",
+        "name": "root"
+    },
+    "destination": {
+        "bytes": 312,
+        "ip": "127.0.0.1",
+        "port": 8080,
+        "packets": 4
+    },
+    "system": {
+        "audit": {
+            "socket": {
+                "uid": 0,
+                "gid": 0,
+                "kernel_sock_address": "0xffff8cf6799f08c0",
+                "euid": 0,
+                "egid": 0
+            }
+        }
+    },
+    "@timestamp": "2021-08-12T11:10:34.837Z",
+    "user": {
+        "id": "0",
+        "name": "root"
+    },
+    "client": {
+        "bytes": 406,
+        "ip": "127.0.0.1",
+        "port": 45982,
+        "packets": 6
+    }
+}
+{
+    "related": {
+        "ip": [
+            "127.0.0.1",
+            "127.0.0.1"
+        ],
+        "user": [
+            "root"
+        ]
+    },
+    "host": {
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "os": {
+            "codename": "bionic",
+            "platform": "ubuntu",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "kernel": "5.4.0-1055-azure",
+            "type": "linux",
+            "name": "Ubuntu"
+        },
+        "name": "kube-deployment"
+    },
+    "server": {
+        "bytes": 312,
+        "ip": "127.0.0.1",
+        "port": 8080,
+        "packets": 4
+    },
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "@version": "1",
+    "process": {
+        "args": [
+            "/coredns",
+            "-conf",
+            "/etc/coredns/Corefile"
+        ],
+        "executable": "/coredns",
+        "pid": 6361,
+        "created": "2021-08-12T10:56:40.000Z",
+        "name": "coredns"
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "flow": {
+        "complete": false,
+        "final": true
+    },
+    "service": {
+        "type": "system"
+    },
+    "source": {
+        "bytes": 406,
+        "port": 46016,
+        "ip": "127.0.0.1",
+        "packets": 6
+    },
+    "event": {
+        "duration": 502800,
+        "end": "2021-08-12T11:10:40.698Z",
+        "module": "system",
+        "kind": "event",
+        "action": "network_flow",
+        "type": [
+            "info",
+            "connection"
+        ],
+        "category": [
+            "network",
+            "network_traffic"
+        ],
+        "start": "2021-08-12T11:10:40.697Z",
+        "dataset": "socket"
+    },
+    "tags": [
+        "beats_input_raw_event"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "hostname": "kube-deployment",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "network": {
+        "community_id": "1:T78sLVLnZRRstr0mLlcgCDWIBVY=",
+        "bytes": 718,
+        "transport": "tcp",
+        "type": "ipv4",
+        "direction": "egress",
+        "packets": 10
+    },
+    "group": {
+        "id": "0",
+        "name": "root"
+    },
+    "destination": {
+        "bytes": 312,
+        "ip": "127.0.0.1",
+        "port": 8080,
+        "packets": 4
+    },
+    "system": {
+        "audit": {
+            "socket": {
+                "uid": 0,
+                "gid": 0,
+                "kernel_sock_address": "0xffff8cf6799f2bc0",
+                "euid": 0,
+                "egid": 0
+            }
+        }
+    },
+    "@timestamp": "2021-08-12T11:10:34.838Z",
+    "user": {
+        "id": "0",
+        "name": "root"
+    },
+    "client": {
+        "bytes": 406,
+        "ip": "127.0.0.1",
+        "port": 46016,
+        "packets": 6
+    }
+}
+{
+    "related": {
+        "ip": [
+            "10.0.1.5",
+            "168.63.129.16"
+        ],
+        "user": [
+            "systemd-resolve"
+        ]
+    },
+    "host": {
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "os": {
+            "platform": "ubuntu",
+            "codename": "bionic",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "type": "linux",
+            "kernel": "5.4.0-1055-azure",
+            "name": "Ubuntu"
+        },
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "name": "kube-deployment"
+    },
+    "server": {
+        "packets": 1,
+        "ip": "168.63.129.16",
+        "port": 53,
+        "bytes": 105
+    },
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "@version": "1",
+    "process": {
+        "args": [
+            "/lib/systemd/systemd-resolved"
+        ],
+        "pid": 1075,
+        "executable": "/lib/systemd/systemd-resolved",
+        "name": "systemd-resolve",
+        "created": "2021-08-12T10:55:46.379Z"
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "flow": {
+        "complete": false,
+        "final": true
+    },
+    "service": {
+        "type": "system"
+    },
+    "source": {
+        "bytes": 81,
+        "port": 36178,
+        "ip": "31.11.32.144",
+        "domain": "kube-deployment.mmvtlyi2dymujmko55eojqnf0a.ax.internal.cloudapp.net",
+        "packets": 1
+    },
+    "event": {
+        "duration": 95102732,
+        "end": "2021-08-12T11:10:35.515Z",
+        "module": "system",
+        "kind": "event",
+        "action": "network_flow",
+        "type": [
+            "info",
+            "connection"
+        ],
+        "category": [
+            "network",
+            "network_traffic"
+        ],
+        "start": "2021-08-12T11:10:35.420Z",
+        "dataset": "socket"
+    },
+    "tags": [
+        "beats_input_raw_event"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "hostname": "kube-deployment",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "network": {
+        "community_id": "1:oYsP974Lbw+RLOgz0fkjAP5OZnk=",
+        "bytes": 186,
+        "transport": "udp",
+        "type": "ipv4",
+        "direction": "egress",
+        "packets": 2
+    },
+    "group": {
+        "id": "103",
+        "name": "systemd-resolve"
+    },
+    "destination": {
+        "bytes": 105,
+        "ip": "168.63.129.16",
+        "port": 53,
+        "packets": 1
+    },
+    "system": {
+        "audit": {
+            "socket": {
+                "uid": 101,
+                "gid": 103,
+                "kernel_sock_address": "0xffff8cf4f5e85200",
+                "euid": 101,
+                "egid": 103
+            }
+        }
+    },
+    "@timestamp": "2021-08-12T11:10:34.838Z",
+    "user": {
+        "id": "101",
+        "name": "systemd-resolve"
+    },
+    "client": {
+        "bytes": 81,
+        "ip": "10.0.1.5",
+        "port": 36178,
+        "domain": "kube-deployment.mmvtlyi2dymujmko55eojqnf0a.ax.internal.cloudapp.net",
+        "packets": 1
+    }
+}
+{
+    "related": {
+        "ip": [
+            "127.0.0.1",
+            "127.0.0.1"
+        ],
+        "user": [
+            "root"
+        ]
+    },
+    "host": {
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "os": {
+            "platform": "ubuntu",
+            "codename": "bionic",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "type": "linux",
+            "kernel": "5.4.0-1055-azure",
+            "name": "Ubuntu"
+        },
+        "name": "kube-deployment"
+    },
+    "server": {
+        "bytes": 312,
+        "ip": "127.0.0.1",
+        "port": 8080,
+        "packets": 4
+    },
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "@version": "1",
+    "process": {
+        "args": [
+            "/coredns",
+            "-conf",
+            "/etc/coredns/Corefile"
+        ],
+        "pid": 6361,
+        "executable": "/coredns",
+        "name": "coredns",
+        "created": "2021-08-12T10:56:40.000Z"
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "flow": {
+        "complete": false,
+        "final": true
+    },
+    "service": {
+        "type": "system"
+    },
+    "source": {
+        "bytes": 406,
+        "ip": "127.0.0.1",
+        "port": 46002,
+        "packets": 6
+    },
+    "event": {
+        "duration": 802400,
+        "end": "2021-08-12T11:10:38.698Z",
+        "module": "system",
+        "kind": "event",
+        "type": [
+            "info",
+            "connection"
+        ],
+        "action": "network_flow",
+        "category": [
+            "network",
+            "network_traffic"
+        ],
+        "start": "2021-08-12T11:10:38.697Z",
+        "dataset": "socket"
+    },
+    "tags": [
+        "beats_input_raw_event"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "hostname": "kube-deployment",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "network": {
+        "community_id": "1:a2EfEASBKQRPc9+WW5rkhhgmdnU=",
+        "bytes": 718,
+        "transport": "tcp",
+        "type": "ipv4",
+        "direction": "egress",
+        "packets": 10
+    },
+    "group": {
+        "id": "0",
+        "name": "root"
+    },
+    "destination": {
+        "bytes": 312,
+        "ip": "127.0.0.1",
+        "port": 8080,
+        "packets": 4
+    },
+    "user": {
+        "id": "0",
+        "name": "root"
+    },
+    "@timestamp": "2021-08-12T11:10:34.838Z",
+    "system": {
+        "audit": {
+            "socket": {
+                "uid": 0,
+                "gid": 0,
+                "kernel_sock_address": "0xffff8cf5c1113d40",
+                "euid": 0,
+                "egid": 0
+            }
+        }
+    },
+    "client": {
+        "bytes": 406,
+        "ip": "127.0.0.1",
+        "port": 46002,
+        "packets": 6
+    }
+}
+{
+    "host": {
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "os": {
+            "codename": "bionic",
+            "platform": "ubuntu",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "kernel": "5.4.0-1055-azure",
+            "type": "linux",
+            "name": "Ubuntu"
+        },
+        "name": "kube-deployment"
+    },
+    "@version": "1",
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "process": {
+        "args": [
+            "runsv",
+            "felix"
+        ],
+        "pid": 7042,
+        "ppid": 6781,
+        "entity_id": "v5l5+RXHiCPq89W/",
+        "executable": "/usr/local/bin/runsv",
+        "working_directory": "/etc/service/enabled/felix",
+        "start": "2021-08-12T10:56:45.890Z",
+        "name": "runsv"
+    },
+    "error": {
+        "message": "failed to hash executable /usr/local/bin/runsv for PID 7042: failed to stat file /usr/local/bin/runsv: stat /usr/local/bin/runsv: no such file or directory"
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "service": {
+        "type": "system"
+    },
+    "event": {
+        "module": "system",
+        "kind": "error",
+        "type": [
+            "info"
+        ],
+        "action": "process_error",
+        "category": [
+            "process"
+        ],
+        "dataset": "process"
+    },
+    "tags": [
+        "beats_input_codec_plain_applied"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "hostname": "kube-deployment",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "user": {
+        "id": "0",
+        "group": {
+            "id": "0",
+            "name": "root"
+        },
+        "saved": {
+            "id": "0",
+            "group": {
+                "id": "0"
+            }
+        },
+        "effective": {
+            "group": {
+                "id": "0"
+            },
+            "id": "0"
+        },
+        "name": "root"
+    },
+    "@timestamp": "2021-08-12T11:10:30.781Z",
+    "message": "ERROR for PID 7042: failed to hash executable /usr/local/bin/runsv for PID 7042: failed to stat file /usr/local/bin/runsv: stat /usr/local/bin/runsv: no such file or directory"
+}
+{
+    "host": {
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "os": {
+            "codename": "bionic",
+            "platform": "ubuntu",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "type": "linux",
+            "kernel": "5.4.0-1055-azure",
+            "name": "Ubuntu"
+        },
+        "name": "kube-deployment"
+    },
+    "@version": "1",
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "process": {
+        "args": [
+            "calico-node",
+            "-felix"
+        ],
+        "pid": 7044,
+        "ppid": 7042,
+        "entity_id": "o2ZEvESoy0Gk/Uw1",
+        "executable": "/usr/bin/calico-node",
+        "working_directory": "/etc/service/enabled/felix",
+        "start": "2021-08-12T10:56:45.890Z",
+        "name": "calico-node"
+    },
+    "error": {
+        "message": "failed to hash executable /usr/bin/calico-node for PID 7044: failed to stat file /usr/bin/calico-node: stat /usr/bin/calico-node: no such file or directory"
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "service": {
+        "type": "system"
+    },
+    "event": {
+        "module": "system",
+        "kind": "error",
+        "type": [
+            "info"
+        ],
+        "action": "process_error",
+        "category": [
+            "process"
+        ],
+        "dataset": "process"
+    },
+    "tags": [
+        "beats_input_codec_plain_applied"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "hostname": "kube-deployment",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "user": {
+        "id": "0",
+        "group": {
+            "id": "0",
+            "name": "root"
+        },
+        "saved": {
+            "id": "0",
+            "group": {
+                "id": "0"
+            }
+        },
+        "effective": {
+            "id": "0",
+            "group": {
+                "id": "0"
+            }
+        },
+        "name": "root"
+    },
+    "@timestamp": "2021-08-12T11:10:30.781Z",
+    "message": "ERROR for PID 7044: failed to hash executable /usr/bin/calico-node for PID 7044: failed to stat file /usr/bin/calico-node: stat /usr/bin/calico-node: no such file or directory"
+}
+{
+    "host": {
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "os": {
+            "codename": "bionic",
+            "platform": "ubuntu",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "kernel": "5.4.0-1055-azure",
+            "type": "linux",
+            "name": "Ubuntu"
+        },
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "name": "kube-deployment"
+    },
+    "@version": "1",
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "process": {
+        "args": [
+            "nginx: worker process"
+        ],
+        "pid": 7053,
+        "ppid": 6975,
+        "entity_id": "TcJr5u0TZZxXGrNq",
+        "executable": "/usr/local/nginx/sbin/nginx",
+        "working_directory": "/etc/nginx",
+        "start": "2021-08-12T10:56:45.940Z",
+        "name": "nginx"
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "error": {
+        "message": "failed to hash executable /usr/local/nginx/sbin/nginx for PID 7053: failed to stat file /usr/local/nginx/sbin/nginx: stat /usr/local/nginx/sbin/nginx: no such file or directory"
+    },
+    "service": {
+        "type": "system"
+    },
+    "event": {
+        "module": "system",
+        "kind": "error",
+        "action": "process_error",
+        "type": [
+            "info"
+        ],
+        "category": [
+            "process"
+        ],
+        "dataset": "process"
+    },
+    "tags": [
+        "beats_input_codec_plain_applied"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "hostname": "kube-deployment",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "user": {
+        "id": "101",
+        "group": {
+            "id": "101",
+            "name": "systemd-journal"
+        },
+        "saved": {
+            "id": "101",
+            "group": {
+                "id": "101"
+            }
+        },
+        "effective": {
+            "group": {
+                "id": "101"
+            },
+            "id": "101"
+        },
+        "name": "systemd-resolve"
+    },
+    "@timestamp": "2021-08-12T11:10:30.781Z",
+    "message": "ERROR for PID 7053: failed to hash executable /usr/local/nginx/sbin/nginx for PID 7053: failed to stat file /usr/local/nginx/sbin/nginx: stat /usr/local/nginx/sbin/nginx: no such file or directory"
+}
+{
+    "host": {
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "os": {
+            "platform": "ubuntu",
+            "codename": "bionic",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "type": "linux",
+            "kernel": "5.4.0-1055-azure",
+            "name": "Ubuntu"
+        },
+        "name": "kube-deployment"
+    },
+    "@version": "1",
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "process": {
+        "args": [
+            "nginx: worker process"
+        ],
+        "pid": 7054,
+        "ppid": 6975,
+        "entity_id": "OpKcj2wIk4n7BIxJ",
+        "executable": "/usr/local/nginx/sbin/nginx",
+        "working_directory": "/etc/nginx",
+        "start": "2021-08-12T10:56:45.940Z",
+        "name": "nginx"
+    },
+    "error": {
+        "message": "failed to hash executable /usr/local/nginx/sbin/nginx for PID 7054: failed to stat file /usr/local/nginx/sbin/nginx: stat /usr/local/nginx/sbin/nginx: no such file or directory"
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "service": {
+        "type": "system"
+    },
+    "event": {
+        "module": "system",
+        "kind": "error",
+        "type": [
+            "info"
+        ],
+        "action": "process_error",
+        "category": [
+            "process"
+        ],
+        "dataset": "process"
+    },
+    "tags": [
+        "beats_input_codec_plain_applied"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "hostname": "kube-deployment",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "user": {
+        "id": "101",
+        "group": {
+            "id": "101",
+            "name": "systemd-journal"
+        },
+        "saved": {
+            "group": {
+                "id": "101"
+            },
+            "id": "101"
+        },
+        "effective": {
+            "id": "101",
+            "group": {
+                "id": "101"
+            }
+        },
+        "name": "systemd-resolve"
+    },
+    "@timestamp": "2021-08-12T11:10:30.781Z",
+    "message": "ERROR for PID 7054: failed to hash executable /usr/local/nginx/sbin/nginx for PID 7054: failed to stat file /usr/local/nginx/sbin/nginx: stat /usr/local/nginx/sbin/nginx: no such file or directory"
+}
+{
+    "host": {
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "os": {
+            "codename": "bionic",
+            "platform": "ubuntu",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "kernel": "5.4.0-1055-azure",
+            "type": "linux",
+            "name": "Ubuntu"
+        },
+        "name": "kube-deployment"
+    },
+    "@version": "1",
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "process": {
+        "args": [
+            "nginx: cache manager process"
+        ],
+        "pid": 7055,
+        "ppid": 6975,
+        "entity_id": "hvp7RLkme8dMzeAG",
+        "executable": "/usr/local/nginx/sbin/nginx",
+        "working_directory": "/etc/nginx",
+        "start": "2021-08-12T10:56:45.940Z",
+        "name": "nginx"
+    },
+    "error": {
+        "message": "failed to hash executable /usr/local/nginx/sbin/nginx for PID 7055: failed to stat file /usr/local/nginx/sbin/nginx: stat /usr/local/nginx/sbin/nginx: no such file or directory"
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "service": {
+        "type": "system"
+    },
+    "event": {
+        "module": "system",
+        "kind": "error",
+        "type": [
+            "info"
+        ],
+        "action": "process_error",
+        "category": [
+            "process"
+        ],
+        "dataset": "process"
+    },
+    "tags": [
+        "beats_input_codec_plain_applied"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "hostname": "kube-deployment",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "user": {
+        "id": "101",
+        "group": {
+            "id": "101",
+            "name": "systemd-journal"
+        },
+        "saved": {
+            "id": "101",
+            "group": {
+                "id": "101"
+            }
+        },
+        "effective": {
+            "id": "101",
+            "group": {
+                "id": "101"
+            }
+        },
+        "name": "systemd-resolve"
+    },
+    "@timestamp": "2021-08-12T11:10:30.781Z",
+    "message": "ERROR for PID 7055: failed to hash executable /usr/local/nginx/sbin/nginx for PID 7055: failed to stat file /usr/local/nginx/sbin/nginx: stat /usr/local/nginx/sbin/nginx: no such file or directory"
+}
+{
+    "related": {
+        "ip": [
+            "10.0.1.5",
+            "10.1.229.209"
+        ],
+        "user": [
+            "root"
+        ]
+    },
+    "host": {
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "os": {
+            "codename": "bionic",
+            "platform": "ubuntu",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "kernel": "5.4.0-1055-azure",
+            "type": "linux",
+            "name": "Ubuntu"
+        },
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "name": "kube-deployment"
+    },
+    "server": {
+        "bytes": 305,
+        "ip": "10.1.229.209",
+        "port": 8080,
+        "packets": 5
+    },
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "@version": "1",
+    "process": {
+        "args": [
+            "/snap/microk8s/2361/kubelet",
+            "--kubeconfig=/var/snap/microk8s/2361/credentials/kubelet.config",
+            "--cert-dir=/var/snap/microk8s/2361/certs",
+            "--client-ca-file=/var/snap/microk8s/2361/certs/ca.crt",
+            "--anonymous-auth=false",
+            "--network-plugin=cni",
+            "--root-dir=/var/snap/microk8s/common/var/lib/kubelet",
+            "--fail-swap-on=false",
+            "--cni-conf-dir=/var/snap/microk8s/2361/args/cni-network/",
+            "--cni-bin-dir=/var/snap/microk8s/2361/opt/cni/bin/",
+            "--feature-gates=DevicePlugins=true",
+            "--eviction-hard=memory.available<100Mi,nodefs.available<1Gi,imagefs.available<1Gi",
+            "--container-runtime=remote",
+            "--container-runtime-endpoint=/var/snap/microk8s/common/run/containerd.sock",
+            "--containerd=/var/snap/microk8s/common/run/containerd.sock",
+            "--node-labels=microk8s.io/cluster=true",
+            "--authentication-token-webhook=true",
+            "--cluster-domain=cluster.local",
+            "--cluster-dns=10.152.183.10"
+        ],
+        "pid": 1411,
+        "executable": "/snap/microk8s/2361/kubelet",
+        "name": "kubelet",
+        "created": "2021-08-12T10:55:51.400Z"
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "flow": {
+        "complete": true,
+        "final": true
+    },
+    "service": {
+        "type": "system"
+    },
+    "source": {
+        "bytes": 379,
+        "ip": "10.0.1.5",
+        "port": 55026,
+        "domain": "kube-deployment.mmvtlyi2dymujmko55eojqnf0a.ax.internal.cloudapp.net",
+        "packets": 5
+    },
+    "event": {
+        "duration": 1140600,
+        "end": "2021-08-12T11:10:34.966Z",
+        "module": "system",
+        "kind": "event",
+        "action": "network_flow",
+        "type": [
+            "info",
+            "connection"
+        ],
+        "category": [
+            "network",
+            "network_traffic"
+        ],
+        "dataset": "socket",
+        "start": "2021-08-12T11:10:34.965Z"
+    },
+    "tags": [
+        "beats_input_raw_event"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "hostname": "kube-deployment",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "network": {
+        "community_id": "1:XZhI7j3JV9uXEi3XpDg6NqqNtAg=",
+        "bytes": 684,
+        "transport": "tcp",
+        "type": "ipv4",
+        "direction": "egress",
+        "packets": 10
+    },
+    "group": {
+        "id": "0",
+        "name": "root"
+    },
+    "destination": {
+        "bytes": 305,
+        "ip": "10.1.229.209",
+        "port": 8080,
+        "packets": 5
+    },
+    "user": {
+        "id": "0",
+        "name": "root"
+    },
+    "@timestamp": "2021-08-12T11:10:35.837Z",
+    "system": {
+        "audit": {
+            "socket": {
+                "uid": 0,
+                "gid": 0,
+                "kernel_sock_address": "0xffff8cf4f5d1b480",
+                "euid": 0,
+                "egid": 0
+            }
+        }
+    },
+    "client": {
+        "bytes": 379,
+        "ip": "10.0.1.5",
+        "port": 55026,
+        "domain": "kube-deployment.mmvtlyi2dymujmko55eojqnf0a.ax.internal.cloudapp.net",
+        "packets": 5
+    }
+}
+{
+    "host": {
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "os": {
+            "codename": "bionic",
+            "platform": "ubuntu",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "type": "linux",
+            "kernel": "5.4.0-1055-azure",
+            "name": "Ubuntu"
+        },
+        "name": "kube-deployment"
+    },
+    "@version": "1",
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "process": {
+        "args": [
+            "/snap/microk8s/2361/bin/containerd-shim-runc-v1",
+            "-namespace",
+            "k8s.io",
+            "-id",
+            "cf853814e960f967fd49b45a843927d5f17fdabc5fa3789e9de91751b48188c2",
+            "-address",
+            "/var/snap/microk8s/common/run/containerd.sock"
+        ],
+        "pid": 7519,
+        "ppid": 1,
+        "hash": {
+            "sha1": "d30624d0b74af1b5c0437740d342096f51f72dcd"
+        },
+        "entity_id": "8xhLXHSwfdIwlSzN",
+        "executable": "/snap/microk8s/2361/bin/containerd-shim-runc-v1",
+        "working_directory": "/var/snap/microk8s/common/run/containerd/io.containerd.runtime.v2.task/k8s.io/cf853814e960f967fd49b45a843927d5f17fdabc5fa3789e9de91751b48188c2",
+        "start": "2021-08-12T10:56:54.440Z",
+        "name": "containerd-shim"
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "service": {
+        "type": "system"
+    },
+    "event": {
+        "id": "ed3b3fd1-9dd8-4a47-a475-c0e0ad6d1644",
+        "module": "system",
+        "kind": "state",
+        "type": [
+            "info"
+        ],
+        "action": "existing_process",
+        "category": [
+            "process"
+        ],
+        "dataset": "process"
+    },
+    "tags": [
+        "beats_input_codec_plain_applied"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "hostname": "kube-deployment",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "user": {
+        "id": "0",
+        "group": {
+            "id": "0",
+            "name": "root"
+        },
+        "saved": {
+            "id": "0",
+            "group": {
+                "id": "0"
+            }
+        },
+        "effective": {
+            "group": {
+                "id": "0"
+            },
+            "id": "0"
+        },
+        "name": "root"
+    },
+    "@timestamp": "2021-08-12T11:10:30.781Z",
+    "message": "Process containerd-shim (PID: 7519) by user root is RUNNING"
+}
+{
+    "host": {
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "os": {
+            "codename": "bionic",
+            "platform": "ubuntu",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "kernel": "5.4.0-1055-azure",
+            "type": "linux",
+            "name": "Ubuntu"
+        },
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "name": "kube-deployment"
+    },
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "@version": "1",
+    "process": {
+        "args": [
+            "/usr/local/bin/python",
+            "/usr/local/bin/gunicorn",
+            "--access-logfile",
+            "-",
+            "--workers",
+            "3",
+            "--bind",
+            "0.0.0.0:5000",
+            "recipesproject.wsgi:application"
+        ],
+        "pid": 7543,
+        "ppid": 7519,
+        "entity_id": "S8QITTREVIjTdMS5",
+        "executable": "/usr/local/bin/python3.9",
+        "working_directory": "/django-recipes",
+        "start": "2021-08-12T10:56:54.520Z",
+        "name": "gunicorn"
+    },
+    "error": {
+        "message": "failed to hash executable /usr/local/bin/python3.9 for PID 7543: failed to stat file /usr/local/bin/python3.9: stat /usr/local/bin/python3.9: no such file or directory"
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "service": {
+        "type": "system"
+    },
+    "event": {
+        "module": "system",
+        "kind": "error",
+        "action": "process_error",
+        "type": [
+            "info"
+        ],
+        "category": [
+            "process"
+        ],
+        "dataset": "process"
+    },
+    "tags": [
+        "beats_input_codec_plain_applied"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "hostname": "kube-deployment",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "user": {
+        "id": "0",
+        "group": {
+            "id": "0",
+            "name": "root"
+        },
+        "saved": {
+            "id": "0",
+            "group": {
+                "id": "0"
+            }
+        },
+        "effective": {
+            "id": "0",
+            "group": {
+                "id": "0"
+            }
+        },
+        "name": "root"
+    },
+    "@timestamp": "2021-08-12T11:10:30.781Z",
+    "message": "ERROR for PID 7543: failed to hash executable /usr/local/bin/python3.9 for PID 7543: failed to stat file /usr/local/bin/python3.9: stat /usr/local/bin/python3.9: no such file or directory"
+}
+{
+    "host": {
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "os": {
+            "codename": "bionic",
+            "platform": "ubuntu",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "type": "linux",
+            "kernel": "5.4.0-1055-azure",
+            "name": "Ubuntu"
+        },
+        "name": "kube-deployment"
+    },
+    "@version": "1",
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "process": {
+        "args": [
+            "/usr/local/bin/python",
+            "/usr/local/bin/gunicorn",
+            "--access-logfile",
+            "-",
+            "--workers",
+            "3",
+            "--bind",
+            "0.0.0.0:5000",
+            "recipesproject.wsgi:application"
+        ],
+        "pid": 7598,
+        "ppid": 7543,
+        "entity_id": "MWkRbXGtI6IlVJOp",
+        "executable": "/usr/local/bin/python3.9",
+        "working_directory": "/django-recipes",
+        "start": "2021-08-12T10:56:54.890Z",
+        "name": "gunicorn"
+    },
+    "error": {
+        "message": "failed to hash executable /usr/local/bin/python3.9 for PID 7598: failed to stat file /usr/local/bin/python3.9: stat /usr/local/bin/python3.9: no such file or directory"
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "service": {
+        "type": "system"
+    },
+    "event": {
+        "module": "system",
+        "kind": "error",
+        "type": [
+            "info"
+        ],
+        "action": "process_error",
+        "category": [
+            "process"
+        ],
+        "dataset": "process"
+    },
+    "tags": [
+        "beats_input_codec_plain_applied"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "hostname": "kube-deployment",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "user": {
+        "id": "0",
+        "group": {
+            "id": "0",
+            "name": "root"
+        },
+        "saved": {
+            "id": "0",
+            "group": {
+                "id": "0"
+            }
+        },
+        "effective": {
+            "id": "0",
+            "group": {
+                "id": "0"
+            }
+        },
+        "name": "root"
+    },
+    "@timestamp": "2021-08-12T11:10:30.781Z",
+    "message": "ERROR for PID 7598: failed to hash executable /usr/local/bin/python3.9 for PID 7598: failed to stat file /usr/local/bin/python3.9: stat /usr/local/bin/python3.9: no such file or directory"
+}
+{
+    "host": {
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "os": {
+            "platform": "ubuntu",
+            "codename": "bionic",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "type": "linux",
+            "kernel": "5.4.0-1055-azure",
+            "name": "Ubuntu"
+        },
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "name": "kube-deployment"
+    },
+    "@version": "1",
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "process": {
+        "args": [
+            "/usr/local/bin/python",
+            "/usr/local/bin/gunicorn",
+            "--access-logfile",
+            "-",
+            "--workers",
+            "3",
+            "--bind",
+            "0.0.0.0:5000",
+            "recipesproject.wsgi:application"
+        ],
+        "pid": 7601,
+        "ppid": 7543,
+        "entity_id": "JYcaI8u46HmRnj1l",
+        "executable": "/usr/local/bin/python3.9",
+        "working_directory": "/django-recipes",
+        "start": "2021-08-12T10:56:54.980Z",
+        "name": "gunicorn"
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "error": {
+        "message": "failed to hash executable /usr/local/bin/python3.9 for PID 7601: failed to stat file /usr/local/bin/python3.9: stat /usr/local/bin/python3.9: no such file or directory"
+    },
+    "service": {
+        "type": "system"
+    },
+    "event": {
+        "module": "system",
+        "kind": "error",
+        "type": [
+            "info"
+        ],
+        "action": "process_error",
+        "category": [
+            "process"
+        ],
+        "dataset": "process"
+    },
+    "tags": [
+        "beats_input_codec_plain_applied"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "hostname": "kube-deployment",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "user": {
+        "group": {
+            "id": "0",
+            "name": "root"
+        },
+        "id": "0",
+        "saved": {
+            "id": "0",
+            "group": {
+                "id": "0"
+            }
+        },
+        "effective": {
+            "id": "0",
+            "group": {
+                "id": "0"
+            }
+        },
+        "name": "root"
+    },
+    "@timestamp": "2021-08-12T11:10:30.781Z",
+    "message": "ERROR for PID 7601: failed to hash executable /usr/local/bin/python3.9 for PID 7601: failed to stat file /usr/local/bin/python3.9: stat /usr/local/bin/python3.9: no such file or directory"
+}
+{
+    "host": {
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "os": {
+            "platform": "ubuntu",
+            "codename": "bionic",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "kernel": "5.4.0-1055-azure",
+            "type": "linux",
+            "name": "Ubuntu"
+        },
+        "name": "kube-deployment"
+    },
+    "@version": "1",
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "process": {
+        "args": [
+            "/usr/local/bin/python",
+            "/usr/local/bin/gunicorn",
+            "--access-logfile",
+            "-",
+            "--workers",
+            "3",
+            "--bind",
+            "0.0.0.0:5000",
+            "recipesproject.wsgi:application"
+        ],
+        "pid": 7606,
+        "ppid": 7543,
+        "entity_id": "DtE3cZlnclcvc8HU",
+        "executable": "/usr/local/bin/python3.9",
+        "working_directory": "/django-recipes",
+        "start": "2021-08-12T10:56:55.050Z",
+        "name": "gunicorn"
+    },
+    "error": {
+        "message": "failed to hash executable /usr/local/bin/python3.9 for PID 7606: failed to stat file /usr/local/bin/python3.9: stat /usr/local/bin/python3.9: no such file or directory"
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "service": {
+        "type": "system"
+    },
+    "event": {
+        "module": "system",
+        "kind": "error",
+        "type": [
+            "info"
+        ],
+        "action": "process_error",
+        "category": [
+            "process"
+        ],
+        "dataset": "process"
+    },
+    "tags": [
+        "beats_input_codec_plain_applied"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "hostname": "kube-deployment",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "user": {
+        "id": "0",
+        "group": {
+            "id": "0",
+            "name": "root"
+        },
+        "saved": {
+            "id": "0",
+            "group": {
+                "id": "0"
+            }
+        },
+        "effective": {
+            "group": {
+                "id": "0"
+            },
+            "id": "0"
+        },
+        "name": "root"
+    },
+    "@timestamp": "2021-08-12T11:10:30.781Z",
+    "message": "ERROR for PID 7606: failed to hash executable /usr/local/bin/python3.9 for PID 7606: failed to stat file /usr/local/bin/python3.9: stat /usr/local/bin/python3.9: no such file or directory"
+}
+{
+    "host": {
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "os": {
+            "codename": "bionic",
+            "platform": "ubuntu",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "kernel": "5.4.0-1055-azure",
+            "type": "linux",
+            "name": "Ubuntu"
+        },
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "name": "kube-deployment"
+    },
+    "@version": "1",
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "process": {
+        "args": [
+            "/snap/microk8s/2361/bin/containerd-shim-runc-v1",
+            "-namespace",
+            "k8s.io",
+            "-id",
+            "1ee30d3c9f62fc1a7e7ebd8c627072f6aa0114608ddd7d0380693cba7143bfa9",
+            "-address",
+            "/var/snap/microk8s/common/run/containerd.sock"
+        ],
+        "pid": 7697,
+        "ppid": 1,
+        "hash": {
+            "sha1": "d30624d0b74af1b5c0437740d342096f51f72dcd"
+        },
+        "entity_id": "bvoe4fqIouiIQSTy",
+        "executable": "/snap/microk8s/2361/bin/containerd-shim-runc-v1",
+        "working_directory": "/var/snap/microk8s/common/run/containerd/io.containerd.runtime.v2.task/k8s.io/1ee30d3c9f62fc1a7e7ebd8c627072f6aa0114608ddd7d0380693cba7143bfa9",
+        "start": "2021-08-12T10:56:58.100Z",
+        "name": "containerd-shim"
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "service": {
+        "type": "system"
+    },
+    "event": {
+        "id": "ed3b3fd1-9dd8-4a47-a475-c0e0ad6d1644",
+        "module": "system",
+        "kind": "state",
+        "type": [
+            "info"
+        ],
+        "action": "existing_process",
+        "category": [
+            "process"
+        ],
+        "dataset": "process"
+    },
+    "tags": [
+        "beats_input_codec_plain_applied"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "hostname": "kube-deployment",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "user": {
+        "group": {
+            "id": "0",
+            "name": "root"
+        },
+        "id": "0",
+        "saved": {
+            "id": "0",
+            "group": {
+                "id": "0"
+            }
+        },
+        "effective": {
+            "id": "0",
+            "group": {
+                "id": "0"
+            }
+        },
+        "name": "root"
+    },
+    "@timestamp": "2021-08-12T11:10:30.781Z",
+    "message": "Process containerd-shim (PID: 7697) by user root is RUNNING"
+}
+{
+    "host": {
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "os": {
+            "platform": "ubuntu",
+            "codename": "bionic",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "kernel": "5.4.0-1055-azure",
+            "type": "linux",
+            "name": "Ubuntu"
+        },
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "name": "kube-deployment"
+    },
+    "@version": "1",
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "process": {
+        "args": [
+            "nginx: master process nginx -g daemon off;"
+        ],
+        "pid": 7718,
+        "ppid": 7697,
+        "hash": {
+            "sha1": "37eb9d635db31eb58f282ed529616be3bfa7df7f"
+        },
+        "entity_id": "s2A/wlGpi68yB/0z",
+        "executable": "/usr/sbin/nginx",
+        "working_directory": "/react-recipes",
+        "start": "2021-08-12T10:56:58.150Z",
+        "name": "nginx"
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "service": {
+        "type": "system"
+    },
+    "event": {
+        "id": "ed3b3fd1-9dd8-4a47-a475-c0e0ad6d1644",
+        "module": "system",
+        "kind": "state",
+        "type": [
+            "info"
+        ],
+        "action": "existing_process",
+        "category": [
+            "process"
+        ],
+        "dataset": "process"
+    },
+    "tags": [
+        "beats_input_codec_plain_applied"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "hostname": "kube-deployment",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "user": {
+        "group": {
+            "id": "0",
+            "name": "root"
+        },
+        "id": "0",
+        "saved": {
+            "group": {
+                "id": "0"
+            },
+            "id": "0"
+        },
+        "effective": {
+            "id": "0",
+            "group": {
+                "id": "0"
+            }
+        },
+        "name": "root"
+    },
+    "@timestamp": "2021-08-12T11:10:30.781Z",
+    "message": "Process nginx (PID: 7718) by user root is RUNNING"
+}
+{
+    "host": {
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "os": {
+            "codename": "bionic",
+            "platform": "ubuntu",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "kernel": "5.4.0-1055-azure",
+            "type": "linux",
+            "name": "Ubuntu"
+        },
+        "name": "kube-deployment"
+    },
+    "auditd": {
+        "sequence": 548,
+        "message_type": "config_change",
+        "data": {
+            "old": "1",
+            "audit_enabled": "1",
+            "op": "set"
+        },
+        "result": "success",
+        "summary": {
+            "object": {
+                "primary": "set",
+                "type": "audit-config"
+            },
+            "actor": {
+                "primary": "unset"
+            }
+        }
+    },
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "@version": "1",
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "service": {
+        "type": "auditd"
+    },
+    "event": {
+        "outcome": "success",
+        "module": "auditd",
+        "kind": "event",
+        "action": "changed-audit-configuration",
+        "type": [
+            "change"
+        ],
+        "category": [
+            "process",
+            "configuration"
+        ]
+    },
+    "tags": [
+        "beats_input_raw_event"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "hostname": "kube-deployment",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "user": {},
+    "@timestamp": "2021-08-12T11:10:34.833Z"
+}
+{
+    "related": {
+        "ip": [
+            "127.0.0.1",
+            "127.0.0.1"
+        ],
+        "user": [
+            "root"
+        ]
+    },
+    "host": {
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "os": {
+            "codename": "bionic",
+            "platform": "ubuntu",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "kernel": "5.4.0-1055-azure",
+            "type": "linux",
+            "name": "Ubuntu"
+        },
+        "name": "kube-deployment"
+    },
+    "server": {
+        "bytes": 312,
+        "ip": "127.0.0.1",
+        "port": 8080,
+        "packets": 4
+    },
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "@version": "1",
+    "process": {
+        "args": [
+            "/coredns",
+            "-conf",
+            "/etc/coredns/Corefile"
+        ],
+        "executable": "/coredns",
+        "pid": 6361,
+        "created": "2021-08-12T10:56:40.000Z",
+        "name": "coredns"
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "flow": {
+        "complete": false,
+        "final": true
+    },
+    "service": {
+        "type": "system"
+    },
+    "source": {
+        "bytes": 406,
+        "ip": "127.0.0.1",
+        "port": 46034,
+        "packets": 6
+    },
+    "event": {
+        "duration": 581700,
+        "end": "2021-08-12T11:10:36.074Z",
+        "module": "system",
+        "kind": "event",
+        "action": "network_flow",
+        "type": [
+            "info",
+            "connection"
+        ],
+        "category": [
+            "network",
+            "network_traffic"
+        ],
+        "start": "2021-08-12T11:10:36.073Z",
+        "dataset": "socket"
+    },
+    "tags": [
+        "beats_input_raw_event"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "hostname": "kube-deployment",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "network": {
+        "community_id": "1:r8bRH53UrceWDodmlhxt/qYXPOM=",
+        "bytes": 718,
+        "transport": "tcp",
+        "type": "ipv4",
+        "direction": "egress",
+        "packets": 10
+    },
+    "group": {
+        "id": "0",
+        "name": "root"
+    },
+    "destination": {
+        "packets": 4,
+        "ip": "127.0.0.1",
+        "port": 8080,
+        "bytes": 312
+    },
+    "system": {
+        "audit": {
+            "socket": {
+                "uid": 0,
+                "gid": 0,
+                "kernel_sock_address": "0xffff8cf6799f6040",
+                "euid": 0,
+                "egid": 0
+            }
+        }
+    },
+    "@timestamp": "2021-08-12T11:10:37.838Z",
+    "user": {
+        "id": "0",
+        "name": "root"
+    },
+    "client": {
+        "bytes": 406,
+        "ip": "127.0.0.1",
+        "port": 46034,
+        "packets": 6
+    }
+}
+{
+    "host": {
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "os": {
+            "platform": "ubuntu",
+            "codename": "bionic",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "kernel": "5.4.0-1055-azure",
+            "type": "linux",
+            "name": "Ubuntu"
+        },
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "name": "kube-deployment"
+    },
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "@version": "1",
+    "process": {
+        "args": [
+            "/usr/share/auditbeat/bin/auditbeat",
+            "--environment",
+            "systemd",
+            "-c",
+            "/etc/auditbeat/auditbeat.yml",
+            "--path.home",
+            "/usr/share/auditbeat",
+            "--path.config",
+            "/etc/auditbeat",
+            "--path.data",
+            "/var/lib/auditbeat",
+            "--path.logs",
+            "/var/log/auditbeat"
+        ],
+        "pid": 24645,
+        "ppid": 1,
+        "hash": {
+            "sha1": "1be00f6a75813479913ca1b7e31e5abe8d254575"
+        },
+        "entity_id": "PFGwxhmJEOiokTtQ",
+        "executable": "/usr/share/auditbeat/bin/auditbeat",
+        "working_directory": "/",
+        "start": "2021-08-12T11:10:20.910Z",
+        "name": "auditbeat"
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "service": {
+        "type": "system"
+    },
+    "event": {
+        "id": "ed3b3fd1-9dd8-4a47-a475-c0e0ad6d1644",
+        "module": "system",
+        "kind": "state",
+        "type": [
+            "info"
+        ],
+        "action": "existing_process",
+        "category": [
+            "process"
+        ],
+        "dataset": "process"
+    },
+    "tags": [
+        "beats_input_codec_plain_applied"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "hostname": "kube-deployment",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "user": {
+        "id": "0",
+        "group": {
+            "id": "0",
+            "name": "root"
+        },
+        "saved": {
+            "id": "0",
+            "group": {
+                "id": "0"
+            }
+        },
+        "effective": {
+            "group": {
+                "id": "0"
+            },
+            "id": "0"
+        },
+        "name": "root"
+    },
+    "@timestamp": "2021-08-12T11:10:30.781Z",
+    "message": "Process auditbeat (PID: 24645) by user root is RUNNING"
+}
+{
+    "host": {
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "os": {
+            "platform": "ubuntu",
+            "codename": "bionic",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "type": "linux",
+            "kernel": "5.4.0-1055-azure",
+            "name": "Ubuntu"
+        },
+        "name": "kube-deployment"
+    },
+    "@version": "1",
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "process": {
+        "args": [
+            "sleep",
+            "3"
+        ],
+        "pid": 24898,
+        "ppid": 1434,
+        "hash": {
+            "sha1": "e8d592cf0303f0deba0bd09ae877e93f4ac10bf0"
+        },
+        "entity_id": "iccKWWaVs44GIcv8",
+        "executable": "/snap/microk8s/2361/bin/sleep",
+        "working_directory": "/var/snap/microk8s/2361",
+        "start": "2021-08-12T11:10:28.050Z",
+        "name": "sleep"
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "service": {
+        "type": "system"
+    },
+    "event": {
+        "id": "ed3b3fd1-9dd8-4a47-a475-c0e0ad6d1644",
+        "module": "system",
+        "kind": "state",
+        "action": "existing_process",
+        "type": [
+            "info"
+        ],
+        "category": [
+            "process"
+        ],
+        "dataset": "process"
+    },
+    "tags": [
+        "beats_input_codec_plain_applied"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "hostname": "kube-deployment",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "user": {
+        "id": "0",
+        "group": {
+            "id": "0",
+            "name": "root"
+        },
+        "saved": {
+            "group": {
+                "id": "0"
+            },
+            "id": "0"
+        },
+        "effective": {
+            "id": "0",
+            "group": {
+                "id": "0"
+            }
+        },
+        "name": "root"
+    },
+    "@timestamp": "2021-08-12T11:10:30.781Z",
+    "message": "Process sleep (PID: 24898) by user root is RUNNING"
+}
+{
+    "host": {
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "os": {
+            "codename": "bionic",
+            "platform": "ubuntu",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "kernel": "5.4.0-1055-azure",
+            "type": "linux",
+            "name": "Ubuntu"
+        },
+        "name": "kube-deployment"
+    },
+    "@version": "1",
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "process": {
+        "args": [
+            "sleep",
+            "3"
+        ],
+        "pid": 25116,
+        "ppid": 1434,
+        "hash": {
+            "sha1": "e8d592cf0303f0deba0bd09ae877e93f4ac10bf0"
+        },
+        "entity_id": "tb3iir3RnUsXeg9j",
+        "executable": "/snap/microk8s/2361/bin/sleep",
+        "working_directory": "/var/snap/microk8s/2361",
+        "start": "2021-08-12T11:10:37.200Z",
+        "name": "sleep"
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "service": {
+        "type": "system"
+    },
+    "event": {
+        "module": "system",
+        "kind": "event",
+        "action": "process_started",
+        "type": [
+            "start"
+        ],
+        "category": [
+            "process"
+        ],
+        "dataset": "process"
+    },
+    "tags": [
+        "beats_input_codec_plain_applied"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "hostname": "kube-deployment",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "user": {
+        "id": "0",
+        "group": {
+            "id": "0",
+            "name": "root"
+        },
+        "saved": {
+            "id": "0",
+            "group": {
+                "id": "0"
+            }
+        },
+        "effective": {
+            "group": {
+                "id": "0"
+            },
+            "id": "0"
+        },
+        "name": "root"
+    },
+    "@timestamp": "2021-08-12T11:10:30.781Z",
+    "message": "Process sleep (PID: 25116) by user root STARTED"
+}
+{
+    "host": {
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "os": {
+            "codename": "bionic",
+            "platform": "ubuntu",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "kernel": "5.4.0-1055-azure",
+            "type": "linux",
+            "name": "Ubuntu"
+        },
+        "name": "kube-deployment"
+    },
+    "@version": "1",
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "process": {
+        "args": [
+            "sleep",
+            "3"
+        ],
+        "pid": 24898,
+        "ppid": 1434,
+        "hash": {
+            "sha1": "e8d592cf0303f0deba0bd09ae877e93f4ac10bf0"
+        },
+        "entity_id": "iccKWWaVs44GIcv8",
+        "executable": "/snap/microk8s/2361/bin/sleep",
+        "working_directory": "/var/snap/microk8s/2361",
+        "start": "2021-08-12T11:10:28.050Z",
+        "name": "sleep"
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "service": {
+        "type": "system"
+    },
+    "event": {
+        "module": "system",
+        "kind": "event",
+        "type": [
+            "end"
+        ],
+        "action": "process_stopped",
+        "category": [
+            "process"
+        ],
+        "dataset": "process"
+    },
+    "tags": [
+        "beats_input_codec_plain_applied"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "hostname": "kube-deployment",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "user": {
+        "id": "0",
+        "group": {
+            "id": "0",
+            "name": "root"
+        },
+        "saved": {
+            "id": "0",
+            "group": {
+                "id": "0"
+            }
+        },
+        "effective": {
+            "id": "0",
+            "group": {
+                "id": "0"
+            }
+        },
+        "name": "root"
+    },
+    "@timestamp": "2021-08-12T11:10:30.781Z",
+    "message": "Process sleep (PID: 24898) by user root STOPPED"
+}
+{
+    "related": {
+        "ip": [
+            "10.0.1.5",
+            "10.1.229.210"
+        ],
+        "user": [
+            "root"
+        ]
+    },
+    "host": {
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "os": {
+            "codename": "bionic",
+            "platform": "ubuntu",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "kernel": "5.4.0-1055-azure",
+            "type": "linux",
+            "name": "Ubuntu"
+        },
+        "name": "kube-deployment"
+    },
+    "server": {
+        "packets": 4,
+        "ip": "10.1.229.210",
+        "port": 10254,
+        "bytes": 306
+    },
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "@version": "1",
+    "process": {
+        "args": [
+            "/snap/microk8s/2361/kubelet",
+            "--kubeconfig=/var/snap/microk8s/2361/credentials/kubelet.config",
+            "--cert-dir=/var/snap/microk8s/2361/certs",
+            "--client-ca-file=/var/snap/microk8s/2361/certs/ca.crt",
+            "--anonymous-auth=false",
+            "--network-plugin=cni",
+            "--root-dir=/var/snap/microk8s/common/var/lib/kubelet",
+            "--fail-swap-on=false",
+            "--cni-conf-dir=/var/snap/microk8s/2361/args/cni-network/",
+            "--cni-bin-dir=/var/snap/microk8s/2361/opt/cni/bin/",
+            "--feature-gates=DevicePlugins=true",
+            "--eviction-hard=memory.available<100Mi,nodefs.available<1Gi,imagefs.available<1Gi",
+            "--container-runtime=remote",
+            "--container-runtime-endpoint=/var/snap/microk8s/common/run/containerd.sock",
+            "--containerd=/var/snap/microk8s/common/run/containerd.sock",
+            "--node-labels=microk8s.io/cluster=true",
+            "--authentication-token-webhook=true",
+            "--cluster-domain=cluster.local",
+            "--cluster-dns=10.152.183.10"
+        ],
+        "pid": 1411,
+        "executable": "/snap/microk8s/2361/kubelet",
+        "name": "kubelet",
+        "created": "2021-08-12T10:55:51.400Z"
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "flow": {
+        "complete": true,
+        "final": true
+    },
+    "service": {
+        "type": "system"
+    },
+    "source": {
+        "bytes": 433,
+        "ip": "10.0.1.5",
+        "port": 42098,
+        "domain": "kube-deployment.mmvtlyi2dymujmko55eojqnf0a.ax.internal.cloudapp.net",
+        "packets": 6
+    },
+    "event": {
+        "duration": 2635001,
+        "end": "2021-08-12T11:10:36.907Z",
+        "module": "system",
+        "kind": "event",
+        "action": "network_flow",
+        "type": [
+            "info",
+            "connection"
+        ],
+        "category": [
+            "network",
+            "network_traffic"
+        ],
+        "dataset": "socket",
+        "start": "2021-08-12T11:10:36.904Z"
+    },
+    "tags": [
+        "beats_input_raw_event"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "hostname": "kube-deployment",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "network": {
+        "community_id": "1:YqNPbVnsG2iVnNyZGc2bVzHNSxI=",
+        "bytes": 739,
+        "transport": "tcp",
+        "type": "ipv4",
+        "direction": "egress",
+        "packets": 10
+    },
+    "group": {
+        "id": "0",
+        "name": "root"
+    },
+    "destination": {
+        "bytes": 306,
+        "ip": "10.1.229.210",
+        "port": 10254,
+        "packets": 4
+    },
+    "user": {
+        "id": "0",
+        "name": "root"
+    },
+    "@timestamp": "2021-08-12T11:10:38.837Z",
+    "system": {
+        "audit": {
+            "socket": {
+                "uid": 0,
+                "gid": 0,
+                "kernel_sock_address": "0xffff8cf4f5d36900",
+                "euid": 0,
+                "egid": 0
+            }
+        }
+    },
+    "client": {
+        "bytes": 433,
+        "ip": "10.0.1.5",
+        "port": 42098,
+        "domain": "kube-deployment.mmvtlyi2dymujmko55eojqnf0a.ax.internal.cloudapp.net",
+        "packets": 6
+    }
+}
+{
+    "related": {
+        "ip": [
+            "10.0.1.5",
+            "10.1.229.210"
+        ],
+        "user": [
+            "root"
+        ]
+    },
+    "host": {
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "os": {
+            "codename": "bionic",
+            "platform": "ubuntu",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "kernel": "5.4.0-1055-azure",
+            "type": "linux",
+            "name": "Ubuntu"
+        },
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "name": "kube-deployment"
+    },
+    "server": {
+        "bytes": 338,
+        "ip": "10.1.229.210",
+        "port": 10254,
+        "packets": 5
+    },
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "@version": "1",
+    "process": {
+        "args": [
+            "/snap/microk8s/2361/kubelet",
+            "--kubeconfig=/var/snap/microk8s/2361/credentials/kubelet.config",
+            "--cert-dir=/var/snap/microk8s/2361/certs",
+            "--client-ca-file=/var/snap/microk8s/2361/certs/ca.crt",
+            "--anonymous-auth=false",
+            "--network-plugin=cni",
+            "--root-dir=/var/snap/microk8s/common/var/lib/kubelet",
+            "--fail-swap-on=false",
+            "--cni-conf-dir=/var/snap/microk8s/2361/args/cni-network/",
+            "--cni-bin-dir=/var/snap/microk8s/2361/opt/cni/bin/",
+            "--feature-gates=DevicePlugins=true",
+            "--eviction-hard=memory.available<100Mi,nodefs.available<1Gi,imagefs.available<1Gi",
+            "--container-runtime=remote",
+            "--container-runtime-endpoint=/var/snap/microk8s/common/run/containerd.sock",
+            "--containerd=/var/snap/microk8s/common/run/containerd.sock",
+            "--node-labels=microk8s.io/cluster=true",
+            "--authentication-token-webhook=true",
+            "--cluster-domain=cluster.local",
+            "--cluster-dns=10.152.183.10"
+        ],
+        "executable": "/snap/microk8s/2361/kubelet",
+        "pid": 1411,
+        "created": "2021-08-12T10:55:51.400Z",
+        "name": "kubelet"
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "flow": {
+        "complete": true,
+        "final": true
+    },
+    "service": {
+        "type": "system"
+    },
+    "source": {
+        "bytes": 381,
+        "ip": "10.0.1.5",
+        "port": 42104,
+        "domain": "kube-deployment.mmvtlyi2dymujmko55eojqnf0a.ax.internal.cloudapp.net",
+        "packets": 5
+    },
+    "event": {
+        "duration": 1759601,
+        "end": "2021-08-12T11:10:38.009Z",
+        "module": "system",
+        "kind": "event",
+        "action": "network_flow",
+        "type": [
+            "info",
+            "connection"
+        ],
+        "category": [
+            "network",
+            "network_traffic"
+        ],
+        "dataset": "socket",
+        "start": "2021-08-12T11:10:38.008Z"
+    },
+    "tags": [
+        "beats_input_raw_event"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "hostname": "kube-deployment",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "network": {
+        "community_id": "1:Wx+Yul2m5o8OMWUkHI6a/5KD7CI=",
+        "bytes": 719,
+        "transport": "tcp",
+        "type": "ipv4",
+        "direction": "egress",
+        "packets": 10
+    },
+    "group": {
+        "id": "0",
+        "name": "root"
+    },
+    "destination": {
+        "bytes": 338,
+        "ip": "10.1.229.210",
+        "port": 10254,
+        "packets": 5
+    },
+    "user": {
+        "id": "0",
+        "name": "root"
+    },
+    "@timestamp": "2021-08-12T11:10:38.837Z",
+    "system": {
+        "audit": {
+            "socket": {
+                "uid": 0,
+                "gid": 0,
+                "kernel_sock_address": "0xffff8cf4f5d36900",
+                "euid": 0,
+                "egid": 0
+            }
+        }
+    },
+    "client": {
+        "bytes": 381,
+        "ip": "10.0.1.5",
+        "port": 42104,
+        "domain": "kube-deployment.mmvtlyi2dymujmko55eojqnf0a.ax.internal.cloudapp.net",
+        "packets": 5
+    }
+}
+{
+    "related": {
+        "ip": [
+            "127.0.0.1",
+            "127.0.0.1"
+        ],
+        "user": [
+            "root"
+        ]
+    },
+    "host": {
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "os": {
+            "platform": "ubuntu",
+            "codename": "bionic",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "kernel": "5.4.0-1055-azure",
+            "type": "linux",
+            "name": "Ubuntu"
+        },
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "name": "kube-deployment"
+    },
+    "server": {
+        "bytes": 312,
+        "ip": "127.0.0.1",
+        "port": 8080,
+        "packets": 4
+    },
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "@version": "1",
+    "process": {
+        "args": [
+            "/coredns",
+            "-conf",
+            "/etc/coredns/Corefile"
+        ],
+        "executable": "/coredns",
+        "pid": 6361,
+        "created": "2021-08-12T10:56:40.000Z",
+        "name": "coredns"
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "flow": {
+        "complete": false,
+        "final": true
+    },
+    "service": {
+        "type": "system"
+    },
+    "source": {
+        "bytes": 406,
+        "port": 46058,
+        "ip": "127.0.0.1",
+        "packets": 6
+    },
+    "event": {
+        "duration": 516800,
+        "end": "2021-08-12T11:10:38.074Z",
+        "module": "system",
+        "kind": "event",
+        "action": "network_flow",
+        "type": [
+            "info",
+            "connection"
+        ],
+        "category": [
+            "network",
+            "network_traffic"
+        ],
+        "start": "2021-08-12T11:10:38.073Z",
+        "dataset": "socket"
+    },
+    "tags": [
+        "beats_input_raw_event"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "hostname": "kube-deployment",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "network": {
+        "community_id": "1:dr4c2OckU6kkbumkzpBGRTAoD2k=",
+        "bytes": 718,
+        "transport": "tcp",
+        "type": "ipv4",
+        "direction": "egress",
+        "packets": 10
+    },
+    "group": {
+        "id": "0",
+        "name": "root"
+    },
+    "destination": {
+        "bytes": 312,
+        "port": 8080,
+        "ip": "127.0.0.1",
+        "packets": 4
+    },
+    "user": {
+        "id": "0",
+        "name": "root"
+    },
+    "@timestamp": "2021-08-12T11:10:39.837Z",
+    "system": {
+        "audit": {
+            "socket": {
+                "uid": 0,
+                "gid": 0,
+                "kernel_sock_address": "0xffff8cf5c1114600",
+                "euid": 0,
+                "egid": 0
+            }
+        }
+    },
+    "client": {
+        "packets": 6,
+        "ip": "127.0.0.1",
+        "port": 46058,
+        "bytes": 406
+    }
+}
+{
+    "related": {
+        "ip": [
+            "127.0.0.1",
+            "127.0.0.1"
+        ],
+        "user": [
+            "root"
+        ]
+    },
+    "host": {
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "os": {
+            "codename": "bionic",
+            "platform": "ubuntu",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "type": "linux",
+            "kernel": "5.4.0-1055-azure",
+            "name": "Ubuntu"
+        },
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "name": "kube-deployment"
+    },
+    "server": {
+        "bytes": 332,
+        "ip": "127.0.0.1",
+        "port": 8080,
+        "packets": 3
+    },
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "@version": "1",
+    "process": {
+        "args": [
+            "/snap/microk8s/2361/kube-apiserver",
+            "--cert-dir=/var/snap/microk8s/2361/certs",
+            "--service-cluster-ip-range=10.152.183.0/24",
+            "--authorization-mode=AlwaysAllow",
+            "--service-account-key-file=/var/snap/microk8s/2361/certs/serviceaccount.key",
+            "--client-ca-file=/var/snap/microk8s/2361/certs/ca.crt",
+            "--tls-cert-file=/var/snap/microk8s/2361/certs/server.crt",
+            "--tls-private-key-file=/var/snap/microk8s/2361/certs/server.key",
+            "--kubelet-client-certificate=/var/snap/microk8s/2361/certs/server.crt",
+            "--kubelet-client-key=/var/snap/microk8s/2361/certs/server.key",
+            "--secure-port=16443",
+            "--token-auth-file=/var/snap/microk8s/2361/credentials/known_tokens.csv",
+            "--insecure-port=0",
+            "--storage-backend=dqlite",
+            "--storage-dir=/var/snap/microk8s/2361/var/kubernetes/backend/",
+            "--allow-privileged=true",
+            "--service-account-issuer=https://kubernetes.default.svc",
+            "--service-account-signing-key-file=/var/snap/microk8s/2361/certs/serviceaccount.key",
+            "--feature-gates=RemoveSelfLink=false",
+            "--requestheader-client-ca-file=/var/snap/microk8s/2361/certs/front-proxy-ca.crt",
+            "--requestheader-allowed-names=front-proxy-client",
+            "--requestheader-extra-headers-prefix=X-Remote-Extra-",
+            "--requestheader-group-headers=X-Remote-Group",
+            "--requestheader-username-headers=X-Remote-User",
+            "--proxy-client-cert-file=/var/snap/microk8s/2361/certs/front-proxy-client.crt",
+            "--proxy-client-key-file=/var/snap/microk8s/2361/certs/front-proxy-client.key"
+        ],
+        "executable": "/snap/microk8s/2361/kube-apiserver",
+        "pid": 6361,
+        "name": "kube-apiserver",
+        "created": "2021-08-12T10:55:51.480Z"
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "flow": {
+        "complete": true,
+        "final": true
+    },
+    "service": {
+        "type": "system"
+    },
+    "source": {
+        "bytes": 214,
+        "ip": "127.0.0.1",
+        "port": 45982,
+        "packets": 4
+    },
+    "event": {
+        "duration": 355100,
+        "end": "2021-08-12T11:10:34.698Z",
+        "module": "system",
+        "kind": "event",
+        "type": [
+            "info",
+            "connection"
+        ],
+        "action": "network_flow",
+        "category": [
+            "network",
+            "network_traffic"
+        ],
+        "start": "2021-08-12T11:10:34.697Z",
+        "dataset": "socket"
+    },
+    "tags": [
+        "beats_input_raw_event"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "hostname": "kube-deployment",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "network": {
+        "community_id": "1:8LDY5gedCoKHLRzKRigKWYfRk34=",
+        "bytes": 546,
+        "transport": "tcp",
+        "type": "ipv4",
+        "direction": "ingress",
+        "packets": 7
+    },
+    "group": {
+        "id": "0",
+        "name": "root"
+    },
+    "destination": {
+        "bytes": 332,
+        "port": 8080,
+        "ip": "127.0.0.1",
+        "packets": 3
+    },
+    "user": {
+        "id": "0",
+        "name": "root"
+    },
+    "@timestamp": "2021-08-12T11:10:39.837Z",
+    "system": {
+        "audit": {
+            "socket": {
+                "uid": 0,
+                "gid": 0,
+                "kernel_sock_address": "0xffff8cf4f5f61c80",
+                "euid": 0,
+                "egid": 0
+            }
+        }
+    },
+    "client": {
+        "bytes": 214,
+        "port": 45982,
+        "ip": "127.0.0.1",
+        "packets": 4
+    }
+}
+{
+    "related": {
+        "ip": [
+            "127.0.0.1",
+            "127.0.0.1"
+        ],
+        "user": [
+            "root"
+        ]
+    },
+    "host": {
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "os": {
+            "codename": "bionic",
+            "platform": "ubuntu",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "type": "linux",
+            "kernel": "5.4.0-1055-azure",
+            "name": "Ubuntu"
+        },
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "name": "kube-deployment"
+    },
+    "server": {
+        "bytes": 220,
+        "ip": "127.0.0.1",
+        "port": 9099,
+        "packets": 3
+    },
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "@version": "1",
+    "process": {
+        "args": [
+            "/snap/microk8s/2361/bin/dqlite",
+            "-s",
+            "file:///var/snap/microk8s/2361/var/kubernetes/backend/cluster.yaml",
+            "-c",
+            "/var/snap/microk8s/2361/var/kubernetes/backend/cluster.crt",
+            "..."
+        ],
+        "pid": 7044,
+        "executable": "/snap/microk8s/2361/bin/dqlite",
+        "name": "dqlite",
+        "created": "2021-08-12T11:10:34.065Z"
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "flow": {
+        "complete": true,
+        "final": true
+    },
+    "service": {
+        "type": "system"
+    },
+    "source": {
+        "bytes": 232,
+        "ip": "127.0.0.1",
+        "port": 59078,
+        "packets": 4
+    },
+    "event": {
+        "duration": 1812400,
+        "end": "2021-08-12T11:10:34.322Z",
+        "module": "system",
+        "kind": "event",
+        "type": [
+            "info",
+            "connection"
+        ],
+        "action": "network_flow",
+        "category": [
+            "network",
+            "network_traffic"
+        ],
+        "start": "2021-08-12T11:10:34.320Z",
+        "dataset": "socket"
+    },
+    "tags": [
+        "beats_input_raw_event"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "hostname": "kube-deployment",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "network": {
+        "community_id": "1:CbQ7+uyo0Arxl01mVoeOsB0woOE=",
+        "bytes": 452,
+        "transport": "tcp",
+        "type": "ipv4",
+        "direction": "ingress",
+        "packets": 7
+    },
+    "group": {
+        "id": "0",
+        "name": "root"
+    },
+    "destination": {
+        "packets": 3,
+        "ip": "127.0.0.1",
+        "port": 9099,
+        "bytes": 220
+    },
+    "system": {
+        "audit": {
+            "socket": {
+                "uid": 0,
+                "gid": 0,
+                "kernel_sock_address": "0xffff8cf676490000",
+                "euid": 0,
+                "egid": 0
+            }
+        }
+    },
+    "@timestamp": "2021-08-12T11:10:39.837Z",
+    "user": {
+        "id": "0",
+        "name": "root"
+    },
+    "client": {
+        "bytes": 232,
+        "ip": "127.0.0.1",
+        "port": 59078,
+        "packets": 4
+    }
+}
+{
+    "related": {
+        "ip": [
+            "127.0.0.1",
+            "127.0.0.1"
+        ],
+        "user": [
+            "root"
+        ]
+    },
+    "host": {
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "os": {
+            "codename": "bionic",
+            "platform": "ubuntu",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "type": "linux",
+            "kernel": "5.4.0-1055-azure",
+            "name": "Ubuntu"
+        },
+        "name": "kube-deployment"
+    },
+    "server": {
+        "bytes": 3263,
+        "port": 45120,
+        "ip": "127.0.0.1",
+        "packets": 15
+    },
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "@version": "1",
+    "process": {
+        "args": [
+            "/snap/microk8s/2361/bin/dqlite",
+            "-s",
+            "file:///var/snap/microk8s/2361/var/kubernetes/backend/cluster.yaml",
+            "-c",
+            "/var/snap/microk8s/2361/var/kubernetes/backend/cluster.crt",
+            "..."
+        ],
+        "executable": "/snap/microk8s/2361/bin/dqlite",
+        "pid": 24841,
+        "name": "dqlite",
+        "created": "2021-08-12T11:10:34.065Z"
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "flow": {
+        "complete": false,
+        "final": true
+    },
+    "service": {
+        "type": "system"
+    },
+    "source": {
+        "bytes": 3898,
+        "port": 19001,
+        "ip": "127.0.0.1",
+        "packets": 18
+    },
+    "event": {
+        "duration": 115903038,
+        "end": "2021-08-12T11:10:34.190Z",
+        "module": "system",
+        "kind": "event",
+        "type": [
+            "info",
+            "connection"
+        ],
+        "action": "network_flow",
+        "category": [
+            "network",
+            "network_traffic"
+        ],
+        "dataset": "socket",
+        "start": "2021-08-12T11:10:34.074Z"
+    },
+    "tags": [
+        "beats_input_raw_event"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "hostname": "kube-deployment",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "network": {
+        "community_id": "1:aHebz5TF2EAFIVv4U57SJwoFQ6M=",
+        "bytes": 7161,
+        "transport": "tcp",
+        "type": "ipv4",
+        "direction": "unknown",
+        "packets": 33
+    },
+    "group": {
+        "id": "0",
+        "name": "root"
+    },
+    "destination": {
+        "bytes": 3263,
+        "port": 45120,
+        "ip": "127.0.0.1",
+        "packets": 15
+    },
+    "user": {
+        "id": "0",
+        "name": "root"
+    },
+    "@timestamp": "2021-08-12T11:10:39.837Z",
+    "system": {
+        "audit": {
+            "socket": {
+                "uid": 0,
+                "gid": 0,
+                "kernel_sock_address": "0xffff8cf676490000",
+                "euid": 0,
+                "egid": 0
+            }
+        }
+    },
+    "client": {
+        "bytes": 3898,
+        "ip": "127.0.0.1",
+        "port": 19001,
+        "packets": 18
+    }
+}
+{
+    "related": {
+        "ip": [
+            "127.0.0.1",
+            "127.0.0.1"
+        ],
+        "user": [
+            "root"
+        ]
+    },
+    "host": {
+        "id": "4a8022e886554db48b8dafd7cb40ee25",
+        "mac": [
+            "00:22:48:80:c7:ca",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "ee:ee:ee:ee:ee:ee",
+            "66:24:34:22:ba:85"
+        ],
+        "containerized": false,
+        "architecture": "x86_64",
+        "hostname": "kube-deployment",
+        "os": {
+            "codename": "bionic",
+            "platform": "ubuntu",
+            "family": "debian",
+            "version": "18.04.5 LTS (Bionic Beaver)",
+            "type": "linux",
+            "kernel": "5.4.0-1055-azure",
+            "name": "Ubuntu"
+        },
+        "ip": [
+            "10.0.1.5",
+            "fe80::222:48ff:fe80:c7ca",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "fe80::ecee:eeff:feee:eeee",
+            "10.1.229.192",
+            "fe80::6424:34ff:fe22:ba85"
+        ],
+        "name": "kube-deployment"
+    },
+    "server": {
+        "bytes": 312,
+        "ip": "127.0.0.1",
+        "port": 8080,
+        "packets": 4
+    },
+    "cloud": {
+        "machine": {
+            "type": "Standard_B2s"
+        },
+        "provider": "azure",
+        "region": "westeurope",
+        "account": {},
+        "instance": {
+            "id": "a9925e1b-4ef1-4b86-9722-5b9e5632ca44",
+            "name": "kube-deployment"
+        },
+        "service": {
+            "name": "Virtual Machines"
+        }
+    },
+    "@version": "1",
+    "process": {
+        "args": [
+            "/coredns",
+            "-conf",
+            "/etc/coredns/Corefile"
+        ],
+        "pid": 6361,
+        "executable": "/coredns",
+        "created": "2021-08-12T10:56:40.000Z",
+        "name": "coredns"
+    },
+    "ecs": {
+        "version": "1.9.0"
+    },
+    "flow": {
+        "complete": false,
+        "final": true
+    },
+    "service": {
+        "type": "system"
+    },
+    "source": {
+        "bytes": 406,
+        "ip": "127.0.0.1",
+        "port": 46062,
+        "packets": 6
+    },
+    "event": {
+        "duration": 550000,
+        "end": "2021-08-12T11:10:39.074Z",
+        "module": "system",
+        "kind": "event",
+        "type": [
+            "info",
+            "connection"
+        ],
+        "action": "network_flow",
+        "category": [
+            "network",
+            "network_traffic"
+        ],
+        "dataset": "socket",
+        "start": "2021-08-12T11:10:39.073Z"
+    },
+    "tags": [
+        "beats_input_raw_event"
+    ],
+    "agent": {
+        "id": "397aacd5-6f6c-4652-bafb-9be9b7b7dedd",
+        "version": "7.13.2",
+        "hostname": "kube-deployment",
+        "ephemeral_id": "14b06110-e692-4785-93ed-2be2113efffb",
+        "type": "auditbeat",
+        "name": "kube-deployment"
+    },
+    "network": {
+        "community_id": "1:c23gSXbfrVEzmPcKZFwzsoZ8cHQ=",
+        "bytes": 718,
+        "transport": "tcp",
+        "type": "ipv4",
+        "direction": "egress",
+        "packets": 10
+    },
+    "group": {
+        "id": "0",
+        "name": "root"
+    },
+    "destination": {
+        "packets": 4,
+        "ip": "127.0.0.1",
+        "port": 8080,
+        "bytes": 312
+    },
+    "system": {
+        "audit": {
+            "socket": {
+                "uid": 0,
+                "gid": 0,
+                "kernel_sock_address": "0xffff8cf5c1114600",
+                "euid": 0,
+                "egid": 0
+            }
+        }
+    },
+    "@timestamp": "2021-08-12T11:10:44.837Z",
+    "user": {
+        "id": "0",
+        "name": "root"
+    },
+    "client": {
+        "packets": 6,
+        "ip": "127.0.0.1",
+        "port": 46062,
+        "bytes": 406
+    }
+}
