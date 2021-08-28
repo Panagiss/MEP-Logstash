@@ -1,3 +1,5 @@
 *.json
 docker_run.txt
-*.code-workspace
+*.code-workspaceconfig/misp.local.crt
+config/elasticsearch-ca.pem
+test-kube.cnf
