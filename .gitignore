@@ -1,1 +1,3 @@
 *.json
+docker_run.txt
+*.code-workspace
