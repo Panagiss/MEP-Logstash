@@ -23,7 +23,7 @@
   #   input { pipeline { address => "to-es" } }
   #   output { elasticsearch { hosts => ["https://localhost:9200"] 
   #       index => "%{[@metadata][beat]}-%{[@metadata][version]}"
-  #       user => ***REMOVED***
+  #       user => logstash_internal
   #       password => apass
   #       ssl => true
   #       cacert => "/usr/share/logstash/config/elasticsearch-ca.pem"
