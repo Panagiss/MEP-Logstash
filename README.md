@@ -1,11 +1,10 @@
-# Logstash config part of MEP - MISP Enrichment Pipeline
-
+# Logstash config of MEP - MISP Enrichment Pipeline
 Here is the MEP system architecture:
 ![MEP Architecture](/assets/images/mep-diagram.png)
 
 
 ## Pipeline structure
-In general the model gets data from [Beats](https://www.elastic.co/beats/) and it "feeds" two other pipelines that of them one sends the data straight to Elasticsearch and the other does the enrichment if a malicious IP was found. The last pipeline runs in parallel with the other 3, it just send Https cals to MISP local server in order to fetch new IoCs that are related with the bad IPs. So in general there are 4 pipelines running, as there are 4 *.conf* files in the *pipelines* folder.
+In general the model gets data from [Beats](https://www.elastic.co/beats/) and it "feeds" two other pipelines. One of them, sends the data straight to Elasticsearch and the other does the enrichment if a malicious IP was found. The last pipeline runs in parallel with the other 3, it just send Https cals to MISP local server in order to fetch new IoCs that are related with the bad IPs. So in general there are 4 pipelines running, as there are 4 *.conf* files in the *pipelines* folder.
 
 ## Notes
 1. If you are using SSL configuration, either on Elsticseach or MISP local server, don't forget to add the certificates into the */config* folder. There ara sample files just for indication.
